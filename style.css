@@ -1,0 +1,112 @@
+@font-face { font-family: INTEGRA; src: url('IntegralCF-DemiBold.otf'); } 
+
+body{
+    background-color: bisque;
+    padding: 3%;
+    text-align: center;
+    font-family: INTEGRA;
+}
+.category{
+    font-family: INTEGRA;
+    font-weight: bold;
+    text-align: center;
+    font-size: 64px;
+    width: 75%;
+    height: 100px;
+    margin:auto;
+    background-color: rgb(255, 190, 110);
+    outline-style: solid;
+    outline-color: rgb(121, 104, 84);
+}
+
+.user_input{
+    font-family: INTEGRA;
+    font-weight: bold;
+    font-size: 64px;
+    outline: none;
+    width: 75%;
+    height: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(255, 227, 193);
+    border-style: none;
+    outline-style: dotted;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+
+.letter{
+    font-family: INTEGRA;
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+    width: 75%;
+    height: 65px;
+    margin:auto;
+}
+.correct_box{
+    font-size: 64px;
+    color: red;
+}
+.correct_box.correct{
+    color: green;
+}
+.correct_box.uncorrect{
+    color: red;
+}
+
+.next{
+    margin-left: 50%;
+    font-size: 34px;
+    outline-style: solid;
+    outline-color: rgb(66, 66, 66);
+    background-color: rgb(192, 192, 192);
+    color:rgb(71, 71, 71);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 3px 3px 7px black;
+    display:inline-block;
+}
+.next:hover, .next.active{
+    cursor: pointer;
+    font-size: 34px;
+    outline-style: solid;
+    outline-color: rgb(66, 66, 66);
+    background-color: rgb(140, 140, 140);
+    color:rgb(95, 95, 95);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 3px 3px 7px black;
+}
+.next.correct,.next.correct.deactive{
+    font-size: 34px;
+    outline-style: solid;
+    background-color: rgb(47, 165, 64);
+    color:rgb(110, 250, 157);
+}
+.next.uncorrect, .next.uncorrect.deactive{
+    font-size: 34px;
+    outline-style: solid;
+    background-color: rgb(192, 192, 192);
+    color:rgb(71, 71, 71);
+}
+.next.uncorrect:hover, .next.uncorrect.active{
+    font-size: 34px;
+    outline-style: solid;
+    background-color: rgb(161, 161, 161);
+    color:rgb(95, 95, 95);
+}
+.next.correct:hover, .next.correct.active{
+    font-size: 34px;
+    outline-style: solid;
+    background-color: rgb(35, 218, 62);
+    color:rgba(197, 255, 201, 0.975);
+}
+.seconds,.tens{
+    font-size: 36px;
+    display:inline-block;
+}
